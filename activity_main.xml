@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <!--    Fajar-->
+            <RelativeLayout
+
+                android:id="@+id/relativeLayoutFajar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="7dp"
+                android:background="@drawable/layout_backgorund"
+                android:elevation="7dp">
+
+                <TextView
+                    android:id="@+id/textViewFajir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_background"
+                    android:text="فجر"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/subLayoutFajar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewFajir"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/buttonTimeStartFajar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="fajir"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+                    <Button
+                        android:id="@+id/buttonTimeEndFajar"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="fajir"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+                    <com.rm.rmswitch.RMSwitch
+                        android:id="@+id/toggleSwitchFajar"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        app:checked="false"
+                        app:enabled="true"
+                        app:switchBkgCheckedColor="@android:color/holo_green_dark"
+                        app:switchBkgNotCheckedColor="@android:color/holo_red_dark"
+                        app:switchDesign="android"
+                        app:switchToggleCheckedColor="@color/toggleCheckedBackground"
+                        app:switchToggleCheckedImage="@drawable/ic_check"
+                        app:switchToggleNotCheckedColor="@color/toggleUnCheckedBackground"
+                        app:switchToggleNotCheckedImage="@drawable/ic_clear" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <!--    Zohar-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutZohar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="7dp"
+                android:background="@drawable/layout_backgorund"
+                android:elevation="7dp">
+
+                <TextView
+                    android:id="@+id/textViewZohar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_background"
+                    android:text="ظهر"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewZohar"
+
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/buttonTimeStartZohar"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="5dp"
+
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="zohar"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+                    <Button
+                        android:id="@+id/buttonTimeEndZohar"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="zohar"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+
+                    <com.rm.rmswitch.RMSwitch
+                        android:id="@+id/toggleSwitchZohar"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        app:checked="false"
+                        app:enabled="true"
+                        app:switchBkgCheckedColor="@android:color/holo_green_dark"
+                        app:switchBkgNotCheckedColor="@android:color/holo_red_dark"
+                        app:switchDesign="android"
+                        app:switchToggleCheckedColor="@color/toggleCheckedBackground"
+                        app:switchToggleCheckedImage="@drawable/ic_check"
+                        app:switchToggleNotCheckedColor="@color/toggleUnCheckedBackground"
+                        app:switchToggleNotCheckedImage="@drawable/ic_clear" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <!--    Asar-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutAsar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="7dp"
+                android:background="@drawable/layout_backgorund"
+                android:elevation="7dp">
+
+                <TextView
+                    android:id="@+id/textViewAsar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_background"
+                    android:text="عصر"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewAsar"
+
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/buttonTimeStartAsar"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="asar"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+                    <Button
+                        android:id="@+id/buttonTimeEndAsar"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="5dp"
+
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="asar"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+
+                    <com.rm.rmswitch.RMSwitch
+                        android:id="@+id/toggleSwitchAsar"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        app:checked="false"
+                        app:enabled="true"
+                        app:switchBkgCheckedColor="@android:color/holo_green_dark"
+                        app:switchBkgNotCheckedColor="@android:color/holo_red_dark"
+                        app:switchDesign="android"
+                        app:switchToggleCheckedColor="@color/toggleCheckedBackground"
+                        app:switchToggleCheckedImage="@drawable/ic_check"
+                        app:switchToggleNotCheckedColor="@color/toggleUnCheckedBackground"
+                        app:switchToggleNotCheckedImage="@drawable/ic_clear" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <!--        Magrib-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutMagrib"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="7dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/layout_backgorund"
+                android:elevation="7dp">
+
+                <TextView
+                    android:id="@+id/textViewMagrib"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_background"
+                    android:text="مغرب"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewMagrib"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/buttonTimeStartMagrib"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="magrib"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+                    <Button
+                        android:id="@+id/buttonTimeEndMagrib"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="magrib"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+
+                    <com.rm.rmswitch.RMSwitch
+                        android:id="@+id/toggleSwitchMagrib"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        app:checked="false"
+                        app:enabled="true"
+                        app:switchBkgCheckedColor="@android:color/holo_green_dark"
+                        app:switchBkgNotCheckedColor="@android:color/holo_red_dark"
+                        app:switchDesign="android"
+                        app:switchToggleCheckedColor="@color/toggleCheckedBackground"
+                        app:switchToggleCheckedImage="@drawable/ic_check"
+                        app:switchToggleNotCheckedColor="@color/toggleUnCheckedBackground"
+                        app:switchToggleNotCheckedImage="@drawable/ic_clear" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <!--        Esha-->
+            <RelativeLayout
+                android:id="@+id/relativeLayoutEshar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="@drawable/layout_backgorund"
+                android:elevation="7dp">
+
+                <TextView
+                    android:id="@+id/textViewEsha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_background"
+                    android:text="عشاء"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewEsha"
+
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/buttonTimeStartEsha"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="esha"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+                    <Button
+                        android:id="@+id/buttonTimeEndEsha"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_un_checked"
+                        android:elevation="10dp"
+                        android:tag="esha"
+                        android:text="@string/default_text"
+                        android:textColor="@android:color/white"
+                        app:layout_widthPercent="50%" />
+
+
+                    <com.rm.rmswitch.RMSwitch
+                        android:id="@+id/toggleSwitchEsha"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        app:checked="false"
+                        app:enabled="true"
+                        app:switchBkgCheckedColor="@android:color/holo_green_dark"
+                        app:switchBkgNotCheckedColor="@android:color/holo_red_dark"
+                        app:switchDesign="android"
+                        app:switchToggleCheckedColor="@color/toggleCheckedBackground"
+                        app:switchToggleCheckedImage="@drawable/ic_check"
+                        app:switchToggleNotCheckedColor="@color/toggleUnCheckedBackground"
+                        app:switchToggleNotCheckedImage="@drawable/ic_clear" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

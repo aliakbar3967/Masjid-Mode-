@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Masjid Mode</string>
+
+    <string name="default_text">00:00</string>
+
+
+    <string name="PREFERENC_TAG">pref_tage</string>
+
+    <!--String to show on buttons after Disabling-->
+    <string name="IS_APPLICATION_LOCKED_BOOLEAN_TAG">functionality Disabled</string>
+
+    <!--Boolean to Check if alarm is Active-->
+    <string name="FAJIR_BOOLEAN_TAG">fajir_boolean_tag</string>
+    <string name="ZOHAR_BOOLEAN_TAG">zohar_boolean_tag</string>
+    <string name="ASAR_BOOLEAN_TAG">asar_boolean_tag</string>
+    <string name="MAGRIB_BOOLEAN_TAG">magrib_boolean_tag</string>
+    <string name="ESHA_BOOLEAN_TAG">esha_boolean_tag</string>
+
+
+    <!--Fajir Constant String-->
+    <string name="FAJIR_TIME_START_TAG">fijar_time_start_tag</string>
+    <string name="FAJIR_TIME_END_TAG">fijar_time_end_tag</string>
+
+    <string name="FAJIR_CALENDER_START_TAG">fijar_calender_start_tag</string>
+    <string name="FAJIR_CALENDER_END_TAG">fijar_calender_end_tag</string>
+
+
+    <!--Zohar Constant String-->
+    <string name="ZOHAR_TIME_START_TAG">zohar_time_start_tag</string>
+    <string name="ZOHAR_TIME_END_TAG">zohar_time_end_tage</string>
+
+    <string name="ZOHAR_CALENDER_START_TAG">zohar_calender_start_tag</string>
+    <string name="ZOHAR_CALENDER_END_TAG">zohar_calender_end_tag</string>
+
+
+    <!--Asar Constant String-->
+    <string name="ASAR_TIME_START_TAG">asar_time_start_tag</string>
+    <string name="ASAR_TIME_END_TAG">asar_time_end_tag</string>
+
+
+    <string name="ASAR_CALENDER_START_TAG">asar_calender_start_tag</string>
+    <string name="ASAR_CALENDER_END_TAG">asar_calender_end_tag</string>
+
+    <!--Magrib Constant String-->
+    <string name="MAGRIB_TIME_START_TAG">magrib_time_start_tag</string>
+    <string name="MAGRIB_TIME_END_TAG">magrib_time_end_tag</string>
+
+
+    <string name="MAGRIB_CALENDER_START_TAG">magrib_calender_start_tag</string>
+    <string name="MAGRIB_CALENDER_END_TAG">magrib_calender_end_tag</string>
+
+    <!--Esha Constant String-->
+    <string name="ESHA_TIME_START_TAG">esha_time_start_tag</string>
+    <string name="ESHA_TIME_END_TAG">esha_time_end_tag</string>
+
+
+    <string name="ESHA_CALENDER_START_TAG">esha_calender_start_tag</string>
+    <string name="ESHA_CALENDER_END_TAG">esha_calender_end_tag</string>
+
+
+    <string name="FAJIR_TIME_START_IS_GOOD">fijar_time_start_tag_is_good</string>
+    <string name="FAJIR_TIME_END__IS_GOOD">fijar_time_end_tag_is_good</string>
+
+    <string name="ZOHAR_TIME_START__IS_GOOD">zohar_time_start_tag_is_good</string>
+    <string name="ZOHAR_TIME_END__IS_GOOD">zohar_time_end_tage_is_good</string>
+
+    <string name="ASAR_TIME_START__IS_GOOD">asar_time_start_tag_is_good</string>
+    <string name="ASAR_TIME_END__IS_GOOD">asar_time_end_tag_is_good</string>
+
+    <string name="MAGRIB_TIME_START__IS_GOOD">magrib_time_start_tag_is_good</string>
+    <string name="MABRIB_TIME_END__IS_GOOD">magrib_time_end_tag_is_good</string>
+
+    <string name="ESHA_TIME_START__IS_GOOD">esha_time_start_tag_is_good</string>
+    <string name="ESHA_TIME_END__IS_GOOD">esha_time_end_tag_is_good</string>
+
+</resources>

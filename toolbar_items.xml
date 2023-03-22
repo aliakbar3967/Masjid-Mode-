@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_review"
+        android:orderInCategory="300"
+        android:title="Give Review"
+        android:icon="@drawable/ic_star"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="300"
+        android:title="Share App"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"/>
+
+</menu>
